@@ -1,0 +1,33 @@
+body
+  background-color: black
+  color: white
+
+.loading
+  width: 40px
+  height: 40px
+  background:
+    color: rgba(0, 0, 0, 0)
+    repeat: no-repeat
+    position: center center
+    size: contain
+
+
+// URI + default svg color
+.loading--default-uri
+  background:
+    image: inline-svg-image('../images/loading.svg', false)
+
+// URI + red
+.loading--red
+  background:
+    image: inline-svg-image('../images/loading.svg', #FF0000, false)
+
+// Base64 + default svg color
+.loading--default-base64
+  background:
+    image: inline-svg-image('../images/loading.svg')
+
+// Base64 + blue
+.loading--blue
+  background:
+    image: inline-svg-image('../images/loading.svg', #0000FF)
