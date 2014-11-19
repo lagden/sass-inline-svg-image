@@ -12,20 +12,23 @@ Usage and examples
 
 ### Compass
 
-See `example/compass`
+See [example/compass](https://github.com/lagden/sass-inline-svg-image/tree/master/example/compass)
 
 **To generate stylesheet:**
 
-`compass compile` or  
-`sass --compass --require '../../inline-svg-image.rb' sass/example.sass > css/example.css`
+    compass compile
+
+or  
+
+    sass --compass --require '../../inline-svg-image.rb' sass/example.sass > css/example.css
 
 ### Sass
 
-See `example/sass`
+See [example/sass](https://github.com/lagden/sass-inline-svg-image/tree/master/example/sass)
 
 **To generate stylesheet:**
 
-`sass --require '../../inline-svg-image.rb' example.sass > example.css`
+    sass --require '../../inline-svg-image.rb' example.sass > example.css
 
 
 ## Author
