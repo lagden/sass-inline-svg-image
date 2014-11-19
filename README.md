@@ -10,6 +10,13 @@ Embeds the contents of a svg image directly inside your stylesheet. For small im
 Usage and examples
 ------------------
 
+To run the examples, do:
+
+    git clone https://github.com/lagden/sass-inline-svg-image.git inline-svg
+    cd inline-svg/example
+    python -m SimpleHTTPServer
+
+
 ### Compass
 
 See [example/compass](https://github.com/lagden/sass-inline-svg-image/tree/master/example/compass)
